@@ -1,3 +1,5 @@
+
+/* NAVIGATION BAR */
 .navbar {
     background-color: #333;
     color: #fff;
@@ -41,3 +43,9 @@
         display: flex;
     }
 }
+
+/* ABOUT PAGE  */
+.about {}
+
+/* CONTACT PAGE */
+.contact {}
