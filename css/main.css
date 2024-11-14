@@ -44,6 +44,72 @@
     }
 }
 
+/* WORK PAGE */
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.project {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+.project img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* DETAIL PAGE */
+.project-detail {
+  padding: 40px;
+}
+
+.project-detail img {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.project-detail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-detail p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.project-detail h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-detail .screenshots {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-detail .screenshots img {
+  width: 26%;
+  margin-bottom: 20px;
+}
+
+.project-detail .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 /* ABOUT PAGE  */
 .about {}
 
